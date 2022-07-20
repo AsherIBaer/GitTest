@@ -10,10 +10,17 @@ int main()
 {
 
     
-
+    ChallengeW2D3_2();
     ChallengeW2D1_1();
 
-    ChallengeW2D1_2();
+   // ChallengeW2D1_2();
+
+    int number;
+    std::cin >> number;
+    if (Leap(number)) { std::cout << "Leap!"; }
+       
+
+    
 
     std::cout << "Hello World! Here!\n";
 }
