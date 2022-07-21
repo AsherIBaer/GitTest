@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{831e7ab3-5571-4267-85e7-66d8cf7ed26b}</ProjectGuid>
-    <RootNamespace>Week1Tester</RootNamespace>
+    <ProjectGuid>{d7a93c8b-434c-45ba-b298-2258247bd8fc}</ProjectGuid>
+    <RootNamespace>Week2Redux</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,13 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Exercises.cpp" />
-    <ClCompile Include="ExercisesW2D3.cpp" />
-    <ClCompile Include="Array_Function.cpp" />
-    <ClCompile Include="Week1Tester.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

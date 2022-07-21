@@ -8,3 +8,5 @@ void ChallengeW2D1_2();
 bool Leap(int year);
 
 void ChallengeW2D3_2();
+
+int Largest(int Array[]);
