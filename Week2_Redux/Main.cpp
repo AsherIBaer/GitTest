@@ -5,11 +5,11 @@
 
 int main() {
 
-	//Vehicle testa;
+	Vehicle testa;
 	Car cara;
 
-	//testa.Drive();
-	//std::cout << testa.getYear() << std::endl;
+	testa.Drive();
+	std::cout << testa.getYear() << std::endl;
 
 	cara.Drive();
 	std::cout << cara.getYear() << std::endl;

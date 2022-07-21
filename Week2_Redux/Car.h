@@ -5,7 +5,7 @@ class Car :
     public Vehicle
 {
 public:
-    void Drive() override;
+    void Drive();
 
 };
 

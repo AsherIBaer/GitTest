@@ -8,7 +8,7 @@ protected:
 	int x2;
 
 public:
-	 virtual void Drive() = 0 ;
+	 virtual void Drive();
 
 	 int getYear();
 
